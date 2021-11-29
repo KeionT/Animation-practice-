@@ -1,0 +1,25 @@
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:260px;
+  width:300px;
+  
+}
+.container:hover .box{
+  width:300px;
+  
+}
+
+.box{
+  height: 100px;
+  width: 150px;
+  background-color: blue;
+  transition:width 1000ms ;
+}
+.first{
+  background-color: red;
+}
+.secound{
+  transition-delay: 1000ms;
+}
